@@ -1,3 +1,13 @@
 body {
   background-color: #e4e4e4;
 }
+#avatar-lg {
+  width: 150px;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.hero {
+  padding-top: 150px;
+  text-align: center;
+}
