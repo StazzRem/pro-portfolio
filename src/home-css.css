@@ -1,5 +1,11 @@
+:root {
+  --primary-color--: #e4e4e4;
+  --secondary-color--: #61d2dc;
+  --third-color--: #41b3d3;
+  --dark-color--: #444444;
+}
 body {
-  background-color: #e4e4e4;
+  background-color: var(--primary-color--);
 }
 #avatar-lg {
   width: 150px;
