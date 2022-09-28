@@ -8,6 +8,9 @@ body {
   background-color: var(--primary-color--);
   color: var(--dark-color--);
 }
+h2 {
+  text-transform: uppercase;
+}
 #avatar-lg {
   width: 120px;
   border-radius: 100px;
@@ -30,6 +33,17 @@ body {
   margin: 0 auto;
   padding: 50px;
 }
+#skills-container {
+  background-color: var(--third-color--);
+  margin: 0 auto;
+  padding: 50px;
+}
+#portfolio-container {
+  background-color: var(--secondary-color--);
+  margin: 0 auto;
+  padding: 50px;
+}
+
 #avatar-main {
   width: 300px;
   padding-right: 20px;
@@ -38,10 +52,10 @@ button {
   background-color: var(--third-color--);
   color: var(--dark-color--);
   border: 2px solid var(--third-color--);
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 10px;
-  width: 120px;
   margin: 10px;
+  text-transform: uppercase;
 }
 .contact-title {
   text-align: center;
