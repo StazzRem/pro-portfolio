@@ -38,6 +38,9 @@ h2 {
   margin: 0 auto;
   padding: 50px;
 }
+#languages {
+  font-weight: 500;
+}
 #portfolio-container {
   background-color: var(--secondary-color--);
   margin: 0 auto;
@@ -56,6 +59,7 @@ button {
   border-radius: 10px;
   margin: 10px;
   text-transform: uppercase;
+  font-weight: 500;
 }
 .contact-title {
   text-align: center;
