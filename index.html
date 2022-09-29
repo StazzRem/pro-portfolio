@@ -78,7 +78,7 @@
           />
         </div>
         <div class="col-7">
-          <h2>About Me</h2>
+          <h2><a href="about.html">About Me</a></h2>
           <p>
             Hi, my name is Stacey Remnant. I’m a British front-end developer
             located in the Netherlands. <br /><br />I began my programming
@@ -88,8 +88,11 @@
           </p>
           <div class="row">
             <div class="col-12">
-              <button>Learn More</button>
-              <button>Download CV</button>
+              <a href="about.html"><button>Learn More</button></a>
+
+              <a href="rsrc/resume.pdf" target="_blank"
+                ><button>Download CV</button></a
+              >
             </div>
           </div>
         </div>
@@ -105,13 +108,13 @@
       <br />
       <div class="row">
         <div class="col">
-          <img src="images/html.png" width="100" alt="HTML5-logo" />
+          <img src="images/html.png" id="language-logos" alt="HTML5-logo" />
         </div>
         <div class="col">
-          <img src="images/css.png" width="100" alt="CSS3-logo" />
+          <img src="images/css.png" id="language-logos" alt="CSS3-logo" />
         </div>
         <div class="col">
-          <img src="images/js.png" width="100" alt="JS-logo" />
+          <img src="images/js.png" id="language-logos" alt="JS-logo" />
         </div>
       </div>
       <div class="row">
@@ -121,7 +124,7 @@
       </div>
     </div>
     <div class="container-fluid text-center" id="portfolio-container">
-      <h2>Portfolio</h2>
+      <h2 class="portfolio-title">Portfolio</h2>
       <div class="row">
         <div class="col">
           <a class="overlay" href="portfolio.html">
@@ -129,7 +132,6 @@
               src="images/personal-page.jpg"
               alt="personal-web-page"
               class="img-fluid"
-              width="400"
               id="portfolio-app"
             />
           </a>
@@ -140,7 +142,6 @@
               src="images/weather-app.jpg"
               alt="weather-app"
               class="img-fluid"
-              width="400"
               id="portfolio-app"
             />
           </a>
@@ -153,10 +154,12 @@
     </div>
     <footer>
       <div class="container text-center">
-        <h2>CONTACT ME</h2>
+        <h2><a href="contact.html">Contact Me</a></h2>
         <div class="row">
           <div class="col-sm-2">
-            <img src="images/2019.jpg" id="avatar-sm" alt="" />
+            <a href="contact.html">
+              <img src="images/2019.jpg" id="avatar-sm" alt="" />
+            </a>
           </div>
 
           <div class="col">
@@ -165,10 +168,18 @@
               <div class="col">E-Mail</div>
               <div class="col">Git Hub</div>
             </div>
-            <div class="row">
+            <div class="row" id="contact-info-2">
               <div class="col">06 12 34 56 78</div>
-              <div class="col">stacey.remnant@gmail.com</div>
-              <div class="col">github.com/StazzRem</div>
+              <div class="col">
+                <a href="mailto:stacey.remnant@gmail.com">
+                  stacey.remnant@gmail.com
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://Github.com/StazzRem" target="_blank"
+                  >Github.com/StazzRem</a
+                >
+              </div>
             </div>
           </div>
         </div>

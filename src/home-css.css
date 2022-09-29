@@ -8,8 +8,16 @@ body {
   background-color: var(--primary-color--);
   color: var(--dark-color--);
 }
+
+h1,
 h2 {
   text-transform: uppercase;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 16px;
 }
 #avatar-lg {
   width: 120px;
@@ -33,13 +41,42 @@ h2 {
   margin: 0 auto;
   padding: 50px;
 }
+button {
+  background-color: var(--third-color--);
+  color: var(--dark-color--);
+  border: 2px solid var(--third-color--);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 10px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: var(--dark-color--);
+}
+a:hover {
+  color: var(--dark-color--);
+}
+#avatar-main {
+  width: 300px;
+  padding-right: 20px;
+}
 #skills-container {
   background-color: var(--third-color--);
   margin: 0 auto;
   padding: 50px;
 }
 #languages {
+  font-size: 16px;
   font-weight: 500;
+}
+#language-logos {
+  width: 100px;
+}
+.portfolio-title {
+  margin-bottom: 15px;
 }
 #portfolio-container {
   background-color: var(--secondary-color--);
@@ -48,6 +85,7 @@ h2 {
 }
 #portfolio-app {
   border: 2px solid var(--third-color--);
+  width: 400px;
 }
 .overlay {
   position: relative;
@@ -80,24 +118,13 @@ h2 {
 .overlay:hover::before {
   opacity: 0.8;
 }
-#avatar-main {
-  width: 300px;
-  padding-right: 20px;
-}
-button {
-  background-color: var(--third-color--);
-  color: var(--dark-color--);
-  border: 2px solid var(--third-color--);
-  padding: 5px 10px;
-  border-radius: 10px;
-  margin: 10px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
+
 .contact-title {
   text-align: center;
 }
 #contact-info {
+  font-weight: 500;
+  text-transform: uppercase;
   margin-top: 15px;
 }
 #avatar-sm {
@@ -109,4 +136,73 @@ button {
 footer {
   padding: 50px;
   background-color: var(--third-color--);
+}
+
+@media (max-width: 825px) {
+  #avatar-lg {
+    width: 100px;
+  }
+  .hero {
+    padding-top: 120px;
+
+    padding-bottom: 50px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h3 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  #aboutme-container {
+    padding: 30px;
+  }
+  button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #avatar-main {
+    width: 240px;
+    padding-right: 10px;
+  }
+  #skills-container {
+    padding: 30px;
+  }
+  p {
+    font-size: 12px;
+  }
+  #languages {
+    font-size: 12px;
+  }
+  #language-logos {
+    width: 70px;
+  }
+  #portfolio-app {
+    width: 350px;
+  }
+  .overlay::before {
+    padding-top: 40%;
+    font-size: 28px;
+  }
+  #contact-info,
+  #contact-info-2 {
+    font-size: 12px;
+  }
+  #avatar-sm {
+    width: 60px;
+    border-radius: 60px;
+    vertical-align: bottom;
+  }
+}
+@media (max-width: 0px) {
+  .overlay::before {
+    padding-top: 35%;
+    font-size: 30px;
+  }
 }
