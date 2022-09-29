@@ -229,7 +229,7 @@ footer {
     max-width: 25px;
   }
   ul {
-    font-size: 12px;
+    font-size: 14px;
   }
   #avatar-lg {
     width: 70px;
@@ -246,7 +246,7 @@ footer {
     font-size: 13px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   #aboutme-container {
     display: none;
@@ -266,7 +266,7 @@ footer {
     margin: 0px !important;
   }
   button {
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px 10px;
     border-radius: 10px;
     margin: 5px;
@@ -287,7 +287,7 @@ footer {
     width: 50px;
   }
   #languages-sd {
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   ul {
@@ -299,7 +299,7 @@ footer {
     margin: 5px;
   }
   p {
-    font-size: 10px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   #languages-sd {
@@ -317,15 +317,14 @@ footer {
   }
   .overlay::before {
     padding-top: 40%;
-    font-size: 28px;
+    font-size: 24px;
   }
   #contact-list {
     display: none;
   }
   #contact-sd {
     display: block;
-
-    font-size: 12px;
+    font-size: 14px;
   }
   #contact-title {
     text-transform: uppercase;
