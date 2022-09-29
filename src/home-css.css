@@ -97,6 +97,15 @@ button {
 .contact-title {
   text-align: center;
 }
+#contact-info {
+  margin-top: 15px;
+}
+#avatar-sm {
+  width: 80px;
+  border-radius: 80px;
+  vertical-align: bottom;
+}
+
 footer {
   padding: 50px;
   background-color: var(--third-color--);
