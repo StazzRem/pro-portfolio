@@ -41,6 +41,9 @@ p {
   margin: 0 auto;
   padding: 50px;
 }
+#aboutme-container-sd {
+  display: none;
+}
 button {
   background-color: var(--third-color--);
   color: var(--dark-color--);
@@ -67,6 +70,9 @@ a:hover {
   background-color: var(--third-color--);
   margin: 0 auto;
   padding: 50px;
+}
+#skills-sd {
+  display: none;
 }
 #languages {
   font-size: 16px;
@@ -132,12 +138,14 @@ a:hover {
   border-radius: 80px;
   vertical-align: bottom;
 }
-
+#contact-sd {
+  display: none;
+}
 footer {
   padding: 50px;
   background-color: var(--third-color--);
 }
-
+/* Initial responsiveness */
 @media (max-width: 825px) {
   #avatar-lg {
     width: 100px;
@@ -200,9 +208,139 @@ footer {
     vertical-align: bottom;
   }
 }
-@media (max-width: 0px) {
+
+@media (max-width: 820px) {
+  #portfolio-app {
+    width: 300px;
+  }
+}
+/* Small devices */
+@media (max-width: 414px) {
+  a.navbar-brand {
+    font-size: 14px;
+  }
+  .navbar.navbar-expand-lg.fixed-top.bg-light {
+    padding: 2px;
+  }
+  .navbar-toggler {
+    max-width: 50px;
+  }
+  .navbar-toggler-icon {
+    max-width: 25px;
+  }
+  ul {
+    font-size: 12px;
+  }
+  #avatar-lg {
+    width: 70px;
+  }
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .hero h1 {
+    font-size: 38px;
+    margin-bottom: 0px;
+  }
+  .hero h3 {
+    font-size: 13px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  #aboutme-container {
+    display: none;
+  }
+  #aboutme-container-sd {
+    display: flex;
+    background-color: var(--secondary-color--);
+    margin: 0 auto;
+    padding: 30px;
+  }
+  #avatar-main-sd {
+    width: 200px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+  }
+  #about-row {
+    margin: 0px !important;
+  }
+  button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  #skills-container {
+    padding: 30px;
+  }
+  .skills {
+    display: none;
+  }
+  #skills-sd {
+    display: block;
+  }
+  #language-logos-sd {
+    width: 50px;
+  }
+  #languages-sd {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  li {
+    margin: 5px;
+  }
+  p {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  #languages-sd {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  #language-logos-sd {
+    width: 80px;
+  }
+  #portfolio-container {
+    padding: 30px;
+  }
+  #portfolio-app {
+    width: 350px;
+  }
   .overlay::before {
-    padding-top: 35%;
-    font-size: 30px;
+    padding-top: 40%;
+    font-size: 28px;
+  }
+  #contact-list {
+    display: none;
+  }
+  #contact-sd {
+    display: block;
+
+    font-size: 12px;
+  }
+  #contact-title {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #contact-sub {
+    margin-bottom: 10px;
+  }
+  #avatar-sm {
+    width: 60px;
+    border-radius: 60px;
+    vertical-align: bottom;
+    margin: 10px;
+  }
+  footer {
+    padding: 30px;
   }
 }
