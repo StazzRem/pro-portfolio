@@ -229,7 +229,7 @@ footer {
     max-width: 25px;
   }
   ul {
-    font-size: 14px;
+    font-size: 16px;
   }
   #avatar-lg {
     width: 70px;
@@ -266,7 +266,7 @@ footer {
     margin: 0px !important;
   }
   button {
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px 10px;
     border-radius: 10px;
     margin: 5px;
@@ -287,7 +287,7 @@ footer {
     width: 50px;
   }
   #languages-sd {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
   ul {
@@ -299,11 +299,11 @@ footer {
     margin: 5px;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
   }
   #languages-sd {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
   }
   #language-logos-sd {
@@ -317,7 +317,7 @@ footer {
   }
   .overlay::before {
     padding-top: 40%;
-    font-size: 24px;
+    font-size: 20px;
   }
   #contact-list {
     display: none;
