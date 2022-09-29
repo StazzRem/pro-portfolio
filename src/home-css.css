@@ -246,7 +246,7 @@ footer {
     font-size: 13px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
   #aboutme-container {
     display: none;
@@ -266,7 +266,7 @@ footer {
     margin: 0px !important;
   }
   button {
-    font-size: 16px;
+    font-size: 12px;
     padding: 5px 10px;
     border-radius: 10px;
     margin: 5px;
@@ -287,7 +287,7 @@ footer {
     width: 50px;
   }
   #languages-sd {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   ul {
@@ -299,11 +299,11 @@ footer {
     margin: 5px;
   }
   p {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
   #languages-sd {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
   }
   #language-logos-sd {
@@ -324,7 +324,7 @@ footer {
   }
   #contact-sd {
     display: block;
-    font-size: 14px;
+    font-size: 12px;
   }
   #contact-title {
     text-transform: uppercase;
