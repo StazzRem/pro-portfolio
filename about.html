@@ -77,7 +77,7 @@
               id="lg-image"
             />
           </div>
-          <div class="col">
+          <div class="col align-items-center" id="about-me-para">
             <h2>My name is Stacey Remnant</h2>
             <p>
               I grew up in Cornwall, UK, which is a beautiful part of the world.
@@ -98,74 +98,145 @@
               other programming languages to create not only websites, but apps
               and even games.
             </p>
+            <div class="fun-facts-etc">
+              <h2>Fun facts:</h2>
+              <ul>
+                <li>I enjoy cosplay and body painting</li>
+                <li>I fundraised over £4,000 in one year for charities</li>
+                <li>
+                  I used to be a broadcaster on Twitch, streaming games and art
+                </li>
+                <li>
+                  I studied Digital Animation at University, but never graduated
+                </li>
+              </ul>
 
-            <h2>Fun facts:</h2>
-            <ul>
-              <li>I enjoy cosplay and body painting</li>
-              <li>I fundraised over £4,000 in one year for charities</li>
-              <li>
-                I used to be a broadcaster on Twitch, streaming games and art
-              </li>
-              <li>
-                I studied Digital Animation at University, but never graduated
-              </li>
-            </ul>
-
-            <div class="col">
-              <h2>My Skills</h2>
-            </div>
-            <div class="container" id="skills-container">
-              <div class="row">
-                <div class="col">
-                  <img
-                    src="images/html.png"
-                    id="language-logos"
-                    alt="HTML5-logo"
-                  />
+              <div class="col">
+                <h2>My Skills</h2>
+              </div>
+              <div class="container" id="skills-container">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="images/html.png"
+                      id="language-logos"
+                      alt="HTML5-logo"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="images/css.png"
+                      id="language-logos"
+                      alt="CSS3-logo"
+                    />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="images/js.png"
+                      id="language-logos"
+                      alt="JS-logo"
+                    />
+                  </div>
                 </div>
-                <div class="col">
-                  <img
-                    src="images/css.png"
-                    id="language-logos"
-                    alt="CSS3-logo"
-                  />
-                </div>
-                <div class="col">
-                  <img src="images/js.png" id="language-logos" alt="JS-logo" />
+                <div class="row">
+                  <div class="col" id="languages">HTML 5</div>
+                  <div class="col" id="languages">CSS 3</div>
+                  <div class="col" id="languages">Javascript</div>
                 </div>
               </div>
+              <br />
               <div class="row">
-                <div class="col" id="languages">HTML 5</div>
-                <div class="col" id="languages">CSS 3</div>
-                <div class="col" id="languages">Javascript</div>
+                <div class="col-12">
+                  <a href="portfolio.html"><button>Portfolio</button></a>
+
+                  <a href="rsrc/resume.pdf" target="_blank"
+                    ><button>Download CV</button></a
+                  >
+                </div>
               </div>
             </div>
-            <br />
+          </div>
+          <!-- FUN FACTS, ETC SMALLER SCREENS -->
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-12">
-                <a href="portfolio.html"><button>Portfolio</button></a>
+              <div class="fun-facts-etc-ss">
+                <h2>Fun Facts:</h2>
+                <ul>
+                  <li>I enjoy cosplay and body painting</li>
+                  <li>I fundraised over £4,000 in one year for charities</li>
+                  <li>
+                    I used to be a broadcaster on Twitch, streaming games and
+                    art
+                  </li>
+                  <li>
+                    I studied Digital Animation at University, but never
+                    graduated
+                  </li>
+                </ul>
 
-                <a href="rsrc/resume.pdf" target="_blank"
-                  ><button>Download CV</button></a
-                >
+                <div class="col">
+                  <h2>My Skills</h2>
+                </div>
+                <div class="container" id="skills-container">
+                  <div class="row">
+                    <div class="col">
+                      <img
+                        src="images/html.png"
+                        id="language-logos"
+                        alt="HTML5-logo"
+                      />
+                    </div>
+                    <div class="col">
+                      <img
+                        src="images/css.png"
+                        id="language-logos"
+                        alt="CSS3-logo"
+                      />
+                    </div>
+                    <div class="col">
+                      <img
+                        src="images/js.png"
+                        id="language-logos"
+                        alt="JS-logo"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col" id="languages">HTML 5</div>
+                    <div class="col" id="languages">CSS 3</div>
+                    <div class="col" id="languages">Javascript</div>
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <a href="portfolio.html"><button>Portfolio</button></a>
+
+                    <a href="rsrc/resume.pdf" target="_blank"
+                      ><button>Download CV</button></a
+                    >
+                  </div>
+                </div>
               </div>
             </div>
+
+            <!-- FUN FACTS, ETC SMALLER SCREENS -->
           </div>
         </div>
       </div>
     </div>
 
     <footer>
-      <div class="container text-center">
+      <div class="container text-center" id="contact">
         <h2><a href="contact.html">Contact Me</a></h2>
         <div class="row">
-          <div class="col-sm-2">
+          <div class="col-2">
             <a href="contact.html">
               <img src="images/2019.jpg" id="avatar-sm" alt="" />
             </a>
           </div>
 
-          <div class="col" id="contact-list">
+          <div class="col">
             <div class="row" id="contact-info">
               <div class="col">Phone</div>
               <div class="col">E-Mail</div>
@@ -188,9 +259,17 @@
         </div>
       </div>
       <!-- SMALL CONTACT -->
-      <div class="container" id="contact-sd">
+      <div class="container text-center" id="contact-sd">
+        <h2 id="contact-title"><a href="contact.html">Contact Me</a></h2>
         <div class="row">
-          <ul class="contact-list">
+          <div class="col">
+            <a href="contact.html">
+              <img src="images/2019.jpg" id="avatar-sm" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <ul>
             <li id="contact-title">Phone</li>
             <li id="contact-sub">06 12 34 56 78</li>
             <li id="contact-title">E-Mail</li>
@@ -200,7 +279,7 @@
               </a>
             </li>
             <li id="contact-title">Git Hub</li>
-            <li id="contact-sub">
+            <li>
               <a href="https://Github.com/StazzRem" target="_blank"
                 >Github.com/StazzRem</a
               >
@@ -208,7 +287,6 @@
           </ul>
         </div>
       </div>
-      <!-- SMALL CONTACT -->
     </footer>
   </body>
 </html>

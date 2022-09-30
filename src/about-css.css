@@ -8,12 +8,18 @@ body {
   background-color: var(--primary-color--);
   color: var(--dark-color--);
 }
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+}
 .hero {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 #lg-image {
-  width: 410px;
+  max-height: 720px;
 }
 .hero h1 {
   font-size: 70px;
@@ -24,6 +30,9 @@ body {
 }
 p {
   font-size: 16px;
+}
+.fun-facts-etc-ss {
+  display: none;
 }
 #skills-container {
   margin-top: 20px;
@@ -43,7 +52,6 @@ button {
   padding: 5px 10px;
   border-radius: 10px;
   margin: 10px;
-
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -74,8 +82,101 @@ footer {
 #contact-sd {
   display: none;
 }
-@media (max-width: 1000px) {
-  ul.contact-sd {
+/* INITIAL RESPOSIVENESS */
+@media (max-width: 991px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+  .fun-facts-etc-ss {
+    margin-top: 10px;
+    display: block;
+  }
+  .fun-facts-etc {
+    display: none;
+  }
+  #about-me-para {
+    vertical-align: middle;
+  }
+}
+/* SMALLER SCREENS */
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  ul {
+    font-size: 12px;
+  }
+  button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #languages {
+    font-size: 12px;
+  }
+  #language-logos {
+    width: 50px;
+  }
+
+  #contact-info,
+  #contact-info-2 {
+    font-size: 12px;
+  }
+  #avatar-sm {
+    width: 60px;
+    border-radius: 60px;
+    vertical-align: bottom;
+  }
+}
+
+/* SMALLER SCREENS */
+@media (max-width: 625px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  #contact {
+    display: none;
+  }
+  #contact-sd {
+    display: block;
+    font-size: 12px;
+  }
+  #contact-sd ul {
     list-style: none;
+    margin: 0;
+  }
+
+  #contact-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+  }
+  #contact-sub {
+    margin-bottom: 10px;
+  }
+  #avatar-sm {
+    width: 60px;
+    border-radius: 60px;
+    vertical-align: bottom;
+    margin: 10px;
+  }
+  footer {
+    padding: 30px;
   }
 }
