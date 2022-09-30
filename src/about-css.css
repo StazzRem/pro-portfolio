@@ -14,6 +14,9 @@ h1 {
 h2 {
   text-transform: uppercase;
 }
+#hero-sd {
+  display: none;
+}
 .hero {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -144,12 +147,56 @@ footer {
   }
 }
 
-/* SMALLER SCREENS */
+/* SMALL DEVICES */
 @media (max-width: 625px) {
+  a.navbar-brand {
+    font-size: 14px;
+  }
+  .navbar.navbar-expand-lg.fixed-top.bg-light {
+    padding: 2px;
+  }
+  .navbar-toggler {
+    max-width: 50px;
+  }
+  .navbar-toggler-icon {
+    max-width: 25px;
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
   h2 {
+    margin-top: 30px;
     font-size: 22px;
   }
+  #hero-lg {
+    display: none;
+  }
+  #hero-sd {
+    display: block;
+    margin: 10px;
+  }
+  .hero {
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+  #lg-image {
+    max-width: 300px;
+    height: auto;
+  }
 
+  #skills-sd {
+    text-align: center;
+  }
+  #skills-sd ul {
+    list-style: none;
+  }
+  #language-logos-sd {
+    width: 70px;
+  }
+  #languages-sd {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
   #contact {
     display: none;
   }

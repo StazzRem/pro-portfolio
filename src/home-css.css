@@ -219,6 +219,7 @@ footer {
     width: 300px;
   }
 }
+/* FOOTER ADJUSTMENT */
 @media (max-width: 612px) {
   #contact {
     display: none;
