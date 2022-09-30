@@ -228,7 +228,7 @@ footer {
     display: block;
     font-size: 12px;
   }
-  ul {
+  #contact-sd ul {
     list-style: none;
     margin: 0;
   }
@@ -265,9 +265,11 @@ footer {
   .navbar-toggler-icon {
     max-width: 25px;
   }
-  ul {
-    font-size: 16px;
+  .navbar ul {
+    font-size: 12px;
+    text-align: left;
   }
+
   #avatar-lg {
     width: 70px;
   }
@@ -332,9 +334,7 @@ footer {
     text-align: center;
     margin: 0 auto;
   }
-  li {
-    margin: 5px;
-  }
+
   p {
     font-size: 12px;
     margin-bottom: 10px;
