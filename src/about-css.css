@@ -12,6 +12,9 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+#lg-image {
+  width: 410px;
+}
 .hero h1 {
   font-size: 70px;
   margin: 30px;
