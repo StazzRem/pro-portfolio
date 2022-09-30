@@ -68,3 +68,11 @@ footer {
   padding: 50px;
   background-color: var(--third-color--);
 }
+#contact-sd {
+  display: none;
+}
+@media (max-width: 1000px) {
+  ul.contact-sd {
+    list-style: none;
+  }
+}
