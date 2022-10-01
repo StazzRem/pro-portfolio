@@ -10,12 +10,185 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/portfolio-css.css" />
     <title>
       Portfolio - Stacey Remnant - Front End Developer based in Europe
     </title>
   </head>
   <body>
-    <h1>Portfolio</h1>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Stacey Remnant</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="Learn more about me"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="portfolio.html"
+                title="Learn more about me"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Contact me here"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid text-center" id="portfolio-container">
+      <h1 class="portfolio-title">Portfolio</h1>
+      <div class="row">
+        <div class="col">
+          <a
+            class="overlay"
+            href="https://www.shecodes.io/workshops/shecodes-basics-ed6644ab-b60b-4935-b8ba-897eb4b8d4e8/projects/1004656"
+            target="_blank"
+          >
+            <img
+              src="images/personal-page.jpg"
+              alt="personal-web-page"
+              class="img-fluid"
+              id="portfolio-app"
+            />
+          </a>
+          <h2>Personal Webpage</h2>
+          <p>
+            The first website I made using the basics of HTML, CSS and
+            Javascript. It includes some basic styling such as borders and using
+            gradients, and also includes hyperlinks and prompts.
+          </p>
+          <a
+            href="https://www.shecodes.io/workshops/shecodes-basics-ed6644ab-b60b-4935-b8ba-897eb4b8d4e8/projects/1004656"
+            target="_blank"
+          >
+            <button>Launch</button></a
+          >
+        </div>
+        <div class="col">
+          <a
+            class="overlay"
+            href="https://gregarious-kelpie-04ba24.netlify.app"
+            target="_blank"
+          >
+            <img
+              src="images/weather-app.jpg"
+              alt="weather-app"
+              class="img-fluid"
+              id="portfolio-app"
+            />
+          </a>
+          <h2>Weather App</h2>
+          <p>
+            One of my major projects I worked on with SheCodes. It includes
+            HTML, CSS, Javascript, Bootstrap and also current weather and
+            forecast APIs. There is also a unique background for some major
+            cities.
+          </p>
+          <a
+            href="https://gregarious-kelpie-04ba24.netlify.app"
+            target="_blank"
+          >
+            <button>Launch</button></a
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container text-center" id="contact">
+        <h2><a href="contact.html">Contact Me</a></h2>
+        <div class="row">
+          <div class="col-2">
+            <a href="contact.html">
+              <img src="images/2019.jpg" id="avatar-sm" alt="" />
+            </a>
+          </div>
+
+          <div class="col">
+            <div class="row" id="contact-info">
+              <div class="col">Phone</div>
+              <div class="col">E-Mail</div>
+              <div class="col">Git Hub</div>
+            </div>
+            <div class="row" id="contact-info-2">
+              <div class="col">06 12 34 56 78</div>
+              <div class="col">
+                <a href="mailto:stacey.remnant@gmail.com">
+                  stacey.remnant@gmail.com
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://Github.com/StazzRem" target="_blank"
+                  >Github.com/StazzRem</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SMALL CONTACT -->
+      <div class="container text-center" id="contact-sd">
+        <h2 id="contact-title"><a href="contact.html">Contact Me</a></h2>
+        <div class="row">
+          <div class="col">
+            <a href="contact.html">
+              <img src="images/2019.jpg" id="avatar-sm" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <ul>
+            <li id="contact-title">Phone</li>
+            <li id="contact-sub">06 12 34 56 78</li>
+            <li id="contact-title">E-Mail</li>
+            <li id="contact-sub">
+              <a href="mailto:stacey.remnant@gmail.com">
+                stacey.remnant@gmail.com
+              </a>
+            </li>
+            <li id="contact-title">Git Hub</li>
+            <li>
+              <a href="https://Github.com/StazzRem" target="_blank"
+                >Github.com/StazzRem</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
