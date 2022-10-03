@@ -62,11 +62,11 @@ a:hover {
 }
 
 .overlay::before {
-  content: "LAUNCH";
+  content: "LAUNCH PROJECT";
   text-align: center;
   padding-top: 40%;
   color: #e4e4e4;
-  font-size: 40px;
+  font-size: 30px;
   vertical-align: middle;
   position: absolute;
   left: 0;
@@ -101,4 +101,49 @@ a:hover {
 footer {
   padding: 50px;
   background-color: var(--third-color--);
+}
+
+/* SMALLER SCREENS */
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .hero ul {
+    font-size: 12px;
+  }
+  button {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #contact-info,
+  #contact-info-2 {
+    font-size: 12px;
+  }
+  #avatar-sm {
+    width: 60px;
+    border-radius: 60px;
+    vertical-align: bottom;
+  }
+}
+
+@media (max-width: 548px) {
+  .overlay::before {
+    font-size: 24px;
+  }
 }
