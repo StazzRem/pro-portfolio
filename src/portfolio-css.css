@@ -149,6 +149,7 @@ footer {
   #portfolio-container {
     margin-bottom: 30px;
   }
+
   footer {
     padding: 30px;
   }
@@ -171,8 +172,16 @@ footer {
   }
   .navbar ul {
     font-size: 12px;
+    text-align: left;
   }
-
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 40px;
+  }
   #portfolio-container-ss {
     display: none;
   }
@@ -191,6 +200,9 @@ footer {
   }
   #portfolio-app {
     max-width: 300px;
+  }
+  button {
+    margin: 5px;
   }
   #contact {
     display: none;
