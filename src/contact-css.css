@@ -50,6 +50,7 @@ footer {
 }
 #avatar-main {
   width: 300px;
+  margin-bottom: 15px;
 }
 #contact-info {
   margin-top: 20px;
@@ -59,6 +60,19 @@ footer {
 /* SMALLER SCREENS */
 
 @media (max-width: 768px) {
+  #avatar-lg {
+    width: 100px;
+  }
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero h3 {
+    font-size: 20px;
+  }
   .contact-ss {
     display: block;
   }
@@ -72,5 +86,54 @@ footer {
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 15px;
+  }
+}
+
+/* SMALL DEVICES */
+@media (max-width: 414px) {
+  a.navbar-brand {
+    font-size: 14px;
+  }
+  .navbar.navbar-expand-lg.fixed-top.bg-light {
+    padding: 2px;
+  }
+  .navbar-toggler {
+    max-width: 50px;
+  }
+  .navbar-toggler-icon {
+    max-width: 25px;
+  }
+  .navbar ul {
+    font-size: 12px;
+    text-align: left;
+  }
+  button {
+    margin: 5px;
+  }
+  #avatar-lg {
+    width: 70px;
+  }
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .hero h3 {
+    font-size: 13px;
+  }
+  #avatar-main {
+    width: 200px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  footer {
+    padding: 30px;
   }
 }
