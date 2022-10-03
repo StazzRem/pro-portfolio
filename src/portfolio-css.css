@@ -12,6 +12,9 @@ body {
   margin-top: 100px;
   margin-bottom: 50px;
 }
+#portfolio-container-ss {
+  display: none;
+}
 #portfolio-container-sd {
   display: none;
 }
@@ -170,6 +173,25 @@ footer {
     font-size: 12px;
   }
 
+  #portfolio-container-ss {
+    display: none;
+  }
+  #portfolio-container-sd {
+    display: block;
+    margin-top: 80px;
+  }
+  #portfolio-container-sd h2 {
+    margin-top: 10px;
+  }
+  #portfolio-container-sd p {
+    padding: 0px 10px;
+  }
+  #portfolio-container-sd .col {
+    margin-bottom: 30px;
+  }
+  #portfolio-app {
+    max-width: 300px;
+  }
   #contact {
     display: none;
   }
