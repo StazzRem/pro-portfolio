@@ -166,7 +166,7 @@ footer {
     padding: 30px;
   }
   button {
-    font-size: 12px;
+    font-size: 16px;
     padding: 5px 10px;
     border-radius: 10px;
     text-transform: uppercase;
@@ -180,10 +180,10 @@ footer {
     padding: 30px;
   }
   p {
-    font-size: 12px;
+    font-size: 16px;
   }
   #languages {
-    font-size: 12px;
+    font-size: 16px;
   }
   #language-logos {
     width: 70px;
@@ -249,7 +249,25 @@ footer {
     padding: 30px;
   }
 }
-/* Small devices */
+/* SMALLER SCREEN ADJUSTMENT */
+@media (max-width: 625px) {
+  #aboutme-container {
+    display: none;
+  }
+  #aboutme-container-sd {
+    display: flex;
+    background-color: var(--secondary-color--);
+    margin: 0 auto;
+    padding: 30px;
+  }
+  #avatar-main-sd {
+    width: 300px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+/* SMALL DEVICES WITH NAV BAR */
 @media (max-width: 414px) {
   a.navbar-brand {
     font-size: 14px;
@@ -285,20 +303,7 @@ footer {
   h2 {
     font-size: 22px;
   }
-  #aboutme-container {
-    display: none;
-  }
-  #aboutme-container-sd {
-    display: flex;
-    background-color: var(--secondary-color--);
-    margin: 0 auto;
-    padding: 30px;
-  }
-  #avatar-main-sd {
-    width: 200px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-  }
+
   #about-row {
     margin: 0px !important;
   }
