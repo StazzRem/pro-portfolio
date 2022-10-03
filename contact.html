@@ -38,9 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html" title="Learn more about me"
@@ -56,7 +54,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ontact.html" title="Contact me here"
+              <a
+                class="nav-link active"
+                href="contact.html"
+                title="Contact me here"
                 >Contact Me</a
               >
             </li>
@@ -64,8 +65,69 @@
         </div>
       </div>
     </nav>
-    <h1>Stacey Remnant</h1>
-    <h2>Front end developer based in Europe</h2>
-    <h3>Contact Me</h3>
+    <div class="hero">
+      <img src="images/2019.jpg" alt="Avatar" id="avatar-lg" />
+      <h1>Stacey Remnant</h1>
+      <h3>Front end developer based in Europe</h3>
+    </div>
+
+    <footer>
+      <p class="text-center">Like what you see and want to work with me?</p>
+      <div class="container text-center" id="contact">
+        <h2 id="contact-title"><a href="contact.html">Contact Me</a></h2>
+        <div class="row">
+          <div class="col">
+            <a href="contact.html">
+              <img src="images/2022pic.jpg" id="avatar-main" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="contact-ls">
+          <div class="col">
+            <div class="row" id="contact-info">
+              <div class="col">Phone</div>
+              <div class="col">E-Mail</div>
+              <div class="col">Git Hub</div>
+            </div>
+            <div class="row" id="contact-info-2">
+              <div class="col">06 12 34 56 78</div>
+              <div class="col">
+                <a href="mailto:stacey.remnant@gmail.com">
+                  stacey.remnant@gmail.com
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://Github.com/StazzRem" target="_blank"
+                  >Github.com/StazzRem</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SMALLER SCREENS -->
+        <div class="contact-ss">
+          <div class="row">
+            <ul>
+              <li id="contact-title">Phone</li>
+              <li id="contact-sub">06 12 34 56 78</li>
+              <li id="contact-title">E-Mail</li>
+              <li id="contact-sub">
+                <a href="mailto:stacey.remnant@gmail.com">
+                  stacey.remnant@gmail.com
+                </a>
+              </li>
+              <li id="contact-title">Git Hub</li>
+              <li>
+                <a href="https://Github.com/StazzRem" target="_blank"
+                  >Github.com/StazzRem</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- SMALLER SCREENS -->
+      </div>
+    </footer>
   </body>
 </html>
