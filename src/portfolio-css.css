@@ -12,6 +12,9 @@ body {
   margin-top: 100px;
   margin-bottom: 50px;
 }
+#portfolio-container-sd {
+  display: none;
+}
 #portfolio-app {
   border: 2px solid var(--third-color--);
   width: 400px;
@@ -28,10 +31,11 @@ h2 {
   margin-top: 10px;
   font-size: 24px;
 }
-p {
+#portfolio-container p {
   margin: 10px;
   padding: 0px 20px;
 }
+
 button {
   background-color: var(--third-color--);
   color: var(--dark-color--);
@@ -104,33 +108,32 @@ footer {
 }
 
 /* SMALLER SCREENS */
-@media (max-width: 768px) {
-  .hero {
-    padding-bottom: 50px;
-  }
+@media (max-width: 767px) {
   h1 {
     font-size: 50px;
   }
+
+  #portfolio-container {
+    display: none;
+  }
+
   h2 {
-    font-size: 22px;
+    margin-top: 0px;
   }
-  p {
-    font-size: 12px;
+
+  .overlay::before {
+    font-size: 24px;
+    padding-top: 40%;
   }
-  h2 {
-    font-size: 22px;
+  #portfolio-container-ss {
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 50px;
   }
-  .hero ul {
-    font-size: 12px;
+  #portfolio-container-ss h1 {
+    text-align: center;
   }
-  button {
-    font-size: 12px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    margin: 5px;
-    text-transform: uppercase;
-    font-weight: 500;
-  }
+
   #contact-info,
   #contact-info-2 {
     font-size: 12px;
@@ -140,10 +143,56 @@ footer {
     border-radius: 60px;
     vertical-align: bottom;
   }
+  #portfolio-container {
+    margin-bottom: 30px;
+  }
+  footer {
+    padding: 30px;
+  }
 }
 
-@media (max-width: 548px) {
-  .overlay::before {
-    font-size: 24px;
+/* SMALL DEVICES */
+
+@media (max-width: 625px) {
+  a.navbar-brand {
+    font-size: 14px;
+  }
+  .navbar.navbar-expand-lg.fixed-top.bg-light {
+    padding: 2px;
+  }
+  .navbar-toggler {
+    max-width: 50px;
+  }
+  .navbar-toggler-icon {
+    max-width: 25px;
+  }
+  .navbar ul {
+    font-size: 12px;
+  }
+
+  #contact {
+    display: none;
+  }
+  #contact-sd {
+    display: block;
+    font-size: 12px;
+  }
+  #contact-sd ul {
+    list-style: none;
+    margin: 0;
+  }
+  #contact-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+  }
+  #contact-sub {
+    margin-bottom: 10px;
+  }
+  #avatar-sm {
+    width: 60px;
+    border-radius: 60px;
+    vertical-align: bottom;
+    margin: 10px;
   }
 }
