@@ -28,7 +28,7 @@ h2 {
 }
 h1 {
   font-size: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 h2 {
   margin-top: 10px;
@@ -111,7 +111,7 @@ footer {
 }
 
 /* SMALLER SCREENS */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 50px;
   }
@@ -160,11 +160,12 @@ footer {
 @media (max-width: 625px) {
   ul {
     list-style: none;
-    text-align: center;
+
     margin: 0 auto;
   }
   h1 {
     font-size: 40px;
+    margin: 30px;
   }
   #portfolio-container-ss {
     display: none;
